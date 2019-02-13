@@ -4,20 +4,39 @@
   "description": "MERN BBS app",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon index.js --exec babel-node"
+    "start": "npx nodemon ./server/index.js --exec babel-node"
   },
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferfromhell/mernapp.git"
+  },
   "author": "Fernando Lujan",
+  "bugs": {
+    "url": "https://github.com/ferfromhell/mernapp/issues"
+  },
   "license": "ISC",
   "dependencies": {
+    "apollo-resolvers": "^1.4.1",
+    "apollo-server": "^2.3.3",
     "apollo-server-express": "^2.3.2",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
+    "bcrypt": "^3.0.3",
     "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "create-react-app": "^2.1.3",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "graphql": "^14.1.1",
     "graphql-tools": "^4.0.4",
-    "nodemon": "^1.18.9"
+    "graphql-upload": "^8.0.4",
+    "jsonwebtoken": "^8.4.0",
+    "merge-graphql-schemas": "^1.5.8",
+    "mongoose": "^5.4.7",
+    "mongoose-validator": "^2.1.0",
+    "nodemon": "^1.18.9",
+    "shortid": "^2.2.14"
   }
 }
